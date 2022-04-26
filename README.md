@@ -1,4 +1,4 @@
-<https://sandbox.zenodo.org/badge/485892833.svg>
+[![DOI](https://sandbox.zenodo.org/badge/485892833.svg)](https://sandbox.zenodo.org/badge/latestdoi/485892833)
 
 # circulant-weighing-matrices
 Data on circulant weighing matrices from the La Jolla Combinatorics Repository
