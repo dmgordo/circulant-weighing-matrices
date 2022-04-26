@@ -2,8 +2,8 @@
 Data on circulant weighing matrices from the La Jolla Combinatorics Repository
 
 This repository holds the source of a Jupyter Book containing 
-information on circulant weighing matrices $CW(n,s^2)$ for
-$n<200$ and $s < 20$.  It is a version of data available at
+information on circulant weighing matrices CW(n,k) for
+n<1000 and k < 400$.  It is a version of data available at
 <https://dmgordon.org/cwm/>.
 
 ## Building the Book ##
