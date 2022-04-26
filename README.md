@@ -1,3 +1,5 @@
+<https://sandbox.zenodo.org/badge/485892833.svg>
+
 # circulant-weighing-matrices
 Data on circulant weighing matrices from the La Jolla Combinatorics Repository
 
