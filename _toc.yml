@@ -1,0 +1,9 @@
+format: jb-article
+root: intro
+sections:
+- file: math_repos
+- file: ljcr
+- file: cwm.ipynb
+- file: updates
+- file: references
+

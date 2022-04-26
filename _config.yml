@@ -1,0 +1,61 @@
+title: 'Circulant Weighing Matrices'
+author: >
+  <a href="mailto:gordon@ccrwest.org">Daniel Gordon</a>
+  IDA Center for Communications Research
+copyright: '2022'
+logo: cwm_logo.png
+
+exclude_patterns:
+  - .github
+  - README.md
+  - .DS_Store
+  - __pycache__
+  - .ipynb_checkpoints
+
+html:
+  favicon: cwm_logo.png
+  use_edit_page_button: true
+  use_repository_button: true
+  use_issues_button: true
+  extra_navbar: >
+    <a href="https://doi.org/TBD/zenodo.TBD"><img src="https://zenodo.org/badge/DOI/TBD/zenodo.TBD.svg" alt="DOI"></a>
+  home_page_in_navbar: true
+  baseurl: 'https://dmgordon.org'
+
+bibtex_bibfiles:
+  - cwm_refs.bib
+
+parse:
+  myst_enable_extensions:
+    - colon_fence
+    - dollarmath
+    - linkify
+    - amsmath
+
+repository:
+  url: https://dmgordon.org (github to come later)
+
+execute:
+  execute_notebooks: cache
+  timeout: 30
+  allow_errors: false
+  stderr_output: show
+
+launch_buttons:
+  notebook_interface: 'classic'  # 'jupyterlab'
+  binderhub_url: 'https://mybinder.org'
+  thebe: true
+
+sphinx:
+  config:
+    html_extra_path:
+      - README.md
+      - LICENCE
+    numfig_format:
+      figure: 'Figure %s'
+    numfig_secnum_depth: 0
+    # Configure Sphinx-copybutton
+    # <https://sphinx-copybutton.readthedocs.io/en/latest/>
+    copybutton_prompt_text: ''
+    copybutton_only_copy_prompt_lines: false
+    copybutton_remove_prompts: false
