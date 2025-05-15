@@ -1,6 +1,5 @@
 import pandas as pd
 import numpy as np
-import matplotlib as mpl
 import json
 
 f = open('cwm.json','r')
@@ -62,12 +61,6 @@ def get_cwm(n,s,i):
         return
 
     return [n,s,C['sets'][i][0],C['sets'][i][1]]
-
-# get number of CW(n,s) sets, if any
-def num_sets(cw):
-    if 'sets' not in cw:
-        return 0
-    return len(cw['sets'])
 
 # print out information about a given CWM
 def get_cwm_data(n,s):

@@ -20,7 +20,7 @@ run locally.  Anyone wishing to further develop the code to do
 research on circulant weighing matrices is welcome to under the [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0)
 license (giving attribution to the original work).
 
-To run the notebook with binder, click here: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dmgordo/signed-difference-sets/master?filepath=signed_difference_sets.ipynb)
+To run the notebook with binder, click here: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dmgordo/circulant-weighing-matrices/master?filepath=circulant_weighing_matrices.ipynb)
 
 ## Contact 
 If you encounter any problems with this repository, please report them
