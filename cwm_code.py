@@ -29,12 +29,11 @@ def get_comment(D):
     return None
 
 
-# number of sets known for these parameters
-def num_sets(D):
-    if "sets" not in cwm[D]:
+# get number of CW(n,s) sets, if any
+def num_sets(cw):
+    if 'sets' not in cw:
         return 0
-
-    return len(cwm[D]["sets"])
+    return len(cw['sets'])
 
 # pull parameters out from name D
 def get_n(D):
