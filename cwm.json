@@ -13077,8 +13077,8 @@
 	"comment": ""
 },
 "CW(186,5)": {
-	"status": "Open",
-	"comment": ""
+	"status": "No",
+	"comment": "Orbit Exhaust"
 },
 "CW(187,5)": {
 	"status": "No",
@@ -63296,5 +63296,5 @@
 "CW(1000,19)": {
 	"status": "No",
 	"comment": "Theorem 5, Arasu and Seberry (1996)"
-},
+}
 }
